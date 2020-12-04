@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100vw;
+    background-size: cover;
+}
+.top-box{
+    background-color: #062e51;
+    display: flex;
+    width: 100vw;
+    height: auto;
+}
+.name{
+    color: #fff;
+    margin-left: 20vh;
+    flex: 1;
+    font-size: 3vh;
+    padding: 2vh;
+}  
+.menu{
+    color: #fff;
+    flex: 1;
+} 
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-top: 2vh;
+    padding-left: 25vh;
+    flex-flow: row wrap;
+}
+.menu ul li{
+    padding: 1vh;
+    padding-left: 2vh;
+    text-align: center;
+}
+.menu ul li a{
+    color: #fff;
+    font-size: 2vh;
+    text-decoration: none;
+}
+.banner-text{
+    display: flex;
+    padding: 2vw;
+}
+.banner-text-item img{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+}   
+.banner-text-item{
+    border-radius: 50%;
+    color: #000000;
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+.banner-text-item h2{
+    font-size: 2em;
+    margin-bottom: 1vh;
+}
+.banner-text-item p{
+    font-size: 4vh;
+}
+.banner-text-item a{
+    border-radius: 1vh;
+    background-color:#326EA1;
+    color: #fff;
+    display: block;
+    font-size: 2vh;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh;
+    text-align: center;
+    width: 15vw;
+    text-decoration: none;
+}
+.main-content{
+    background-color: #062e51;
+    color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+}
+.main-head{
+    margin-top: 1vw;
+    padding: 1vh;
+    background-color: #062e51;
+    color: #fff;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.main1{
+    flex: 1;
+    padding: 1vh;
+    font-size: 2vh;
+    text-align: center;
+}
+.tutorials{
+    background-color: #fff;
+    padding: 3vh;
+    position: relative;
+    z-index: 1;
+}
+.tutorials-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tutorials-items img{
+    width: 50vw;
+    height: auto;
+}
+.tutorials-items h3{
+    color: #000;
+    font-size: 2vh;
+    margin-bottom: 3vh;
+    flex-direction: column;
+}
+.contact{
+    background-color: #062e51;
+    padding: 2vh;
+    position: relative;
+    z-index: 1;
+}
+.contact-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-items input[type="text"]{
+    border-radius: 1vh;
+    margin-bottom: 2vh;
+    padding: 2vh;
+    width: 40vw;
+}
+.contact-items h2{
+    color: #fff;
+    font-size: 3vh;
+    margin-bottom: 2vh;
+    flex-direction: column;
+}
+.contact-items textarea{
+    border-radius: 1vh;
+    padding: 2vh;
+    height: 10vh;
+    width: 40vw;
+}
+.contact-items a{
+    border-radius: 1vh;
+    background: #fff;
+    color: black;
+    display: block;
+    font-size: 2vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    text-align: center;
+    width: 40vw;
+    text-decoration: none;
+}
+.logo{
+    background-color: #062e51;
+    padding: 2vh;
+    position: relative;
+    z-index: 1;
+}
+.logo-items{
+    display: flex;
+    align-items: center;
+    margin-left: 45vw;
+    flex-direction: row;
+}
